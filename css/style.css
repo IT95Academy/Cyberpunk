@@ -1,0 +1,1196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+header {
+  background-image: url(../img/cyberpunk-1\(1\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 1000px;
+}
+
+header .container-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding-top: 20px;
+}
+
+header .container-one nav {
+  display: flex;
+  max-width: 379px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header .container-one nav img:hover {
+  opacity: 0.8;
+}
+
+header .container-two {
+  max-width: 1280px;
+  margin: 537px auto 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .container-two .block {
+  max-width: 624px;
+  max-height: 369px;
+  background: #f8f200;
+  clip-path: polygon(8% 0%, 100% 0, 100% 88%, 92% 100%, 0 100%, 0% 12%);
+  padding: 70px;
+}
+
+header .container-two .block h2 {
+  font-family: 'Archangelsk';
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 63px;
+  max-width: 463px;
+  margin-bottom: 25px;
+}
+
+header .container-two .block button {
+  max-width: 272px;
+  max-height: 78px;
+  width: 100%;
+  height: 78px;
+  background: #000000;
+  border: #000000 solid;
+  font-weight: 700;
+  font-size: 24px;
+  color: #f8f200;
+  cursor: pointer;
+}
+
+header .container-two .block button:hover {
+  border-color: #52bedc;
+  opacity: 0.9;
+}
+
+/* section-one */
+
+.section-one {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-one .container-one {
+  display: flex;
+  flex-direction: column;
+  margin: 4% auto;
+}
+
+.section-one .container-one h2 {
+  font-family: 'Archangelsk';
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 63px;
+  max-width: 996px;
+  margin-bottom: 25px;
+}
+
+.section-one .container-one p {
+  font-size: 18px;
+  line-height: 34px;
+  color: #777777;
+  max-width: 952px;
+}
+
+.section-one .container-one p b {
+  color: #52bedc;
+  font-weight: 700;
+}
+
+.section-one .container-two {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 4% auto;
+}
+
+.section-one .container-two img {
+  width: 100%;
+}
+
+.section-one .container-two .block-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+/* background-color-one */
+
+.background-color-one {
+  background-image: url(../img/background-color-one.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70px;
+}
+
+/* section-two */
+
+.section-two {
+  background-color: #000000;
+  padding: 1% 0 4% 0;
+}
+
+.section-two .container-one {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-two .container-one .block-one {
+  display: flex;
+  align-items: flex-end;
+  gap: 32px;
+  margin-bottom: 25px;
+}
+
+.section-two .container-one .block-one h2 {
+  font-family: 'Archangelsk';
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 63px;
+  color: #ffffff;
+  margin-bottom: 1%;
+  max-width: 569px;
+}
+
+.section-two .container-one .block-two p {
+  font-size: 18px;
+  line-height: 34px;
+  color: #ffffff;
+  max-width: 952px;
+}
+
+.section-two .container-one .block-two p b {
+  color: #52bedc;
+  font-weight: 700;
+}
+
+.section-two .container-two {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 2% auto 4%;
+}
+
+.section-two .container-two .block-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 35px;
+  max-width: 460px;
+  width: 100%;
+}
+
+.section-two .container-two .block-one .text {
+  border: none;
+  border-bottom: 1px solid #777777;
+  background: transparent;
+  padding-bottom: 13px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.section-two .container-two .block-one .email {
+  border: none;
+  border-bottom: 1px solid #777777;
+  background: transparent;
+  padding-bottom: 13px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.section-two .container-two .block-one .input-file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #777777;
+  background-color: #000000;
+  height: 120px;
+  border: 1px dashed #777777;
+}
+
+.section-two .container-two .block-one .input-file div:nth-of-type(1) {
+  font-family: 'Roboto';
+  font-size: 18px;
+  text-decoration-line: underline;
+}
+
+.section-two .container-two .block-one .input-file div:nth-of-type(2) {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.section-two .container-two .block-one .input-file input[type='file'] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+.section-two .container-two .block-one .input-file:hover {
+  opacity: 0.8;
+}
+
+.section-two .container-two .block-one .input-file:active {
+  opacity: 0.8;
+}
+
+.section-two
+  .container-two
+  .block-one
+  .input-file
+  input[type='file']:disabled
+  + div {
+  background-color: #eee;
+}
+
+.section-two .container-two .block-one .submit {
+  background: #f8f200;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  width: 192px;
+  height: 59px;
+  cursor: pointer;
+  border: 2px #f8f200 solid;
+  margin-bottom: -20px;
+}
+
+.section-two .container-two .block-one .submit:hover {
+  border-color: #52bedc;
+  opacity: 0.9;
+}
+
+.section-two .container-two .block-one .input-checkbox {
+  display: flex;
+}
+
+.section-two .container-two .block-one .input-checkbox input[type='checkbox'] {
+  position: relative;
+  cursor: pointer;
+  width: 0;
+}
+
+.section-two
+  .container-two
+  .block-one
+  .input-checkbox
+  input[type='checkbox']::before {
+  content: url(../img/checkbox-1.svg);
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+
+.section-two
+  .container-two
+  .block-one
+  .input-checkbox
+  input[type='checkbox']:checked:after {
+  content: url(../img/checkbox-2.svg);
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+
+.section-two .container-two .block-one .input-checkbox p {
+  font-weight: 300;
+  font-size: 12px;
+  color: #ffffff;
+  margin-left: 24px;
+}
+
+.section-two .container-two .block-two {
+  display: flex;
+  align-items: center;
+}
+
+.section-two .container-two .block-two img {
+  width: 100%;
+}
+
+.section-two .container-three {
+  display: none;
+}
+
+/* background-color-two */
+
+.background-color-two {
+  background-image: url(../img/background-color-two.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70px;
+}
+
+/* section-three */
+
+.section-three {
+  background: #f8f200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 70px 0;
+}
+
+.section-three .container-one {
+  max-width: 624px;
+  width: 100%;
+}
+
+.section-three .container-one .content-one {
+  margin-bottom: 26px;
+}
+
+.section-three .container-one .content-one img {
+  width: 100%;
+}
+
+.section-three .container-one .content-two {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.section-three .container-one .content-two img:nth-of-type(1) {
+  width: 100%;
+  max-width: 80px;
+}
+
+.section-three .container-one .content-two img:nth-of-type(2) {
+  width: 100%;
+  max-width: 92px;
+}
+
+.section-three .container-one .content-two img:nth-of-type(3) {
+  width: 100%;
+  max-width: 320px;
+}
+
+.section-three .container-two {
+  width: 100%;
+  max-width: 624px;
+}
+
+.section-three .container-two .content-one h2 {
+  font-family: Archangelsk;
+  font-size: 62px;
+  font-weight: 400;
+  line-height: 63px;
+  margin-bottom: 25px;
+}
+
+.section-three .container-two .content-one p {
+  font-size: 18px;
+  line-height: 34px;
+  margin-bottom: 25px;
+}
+
+.section-three .container-two .content-two {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.section-three .container-two .content-two .block-one,
+.section-three .container-two .content-two .block-two,
+.section-three .container-two .content-two .block-three {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-three .container-two .content-two .block-one p,
+.section-three .container-two .content-two .block-two p,
+.section-three .container-two .content-two .block-three p {
+  font-size: 18px;
+}
+
+.section-three .container-two .content-three button {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 50px;
+  background: #000000;
+  color: #f8f200;
+  cursor: pointer;
+}
+
+.section-three .container-two .content-three button:hover {
+  border-color: #52bedc;
+  opacity: 0.9;
+}
+
+/* section-four */
+
+.section-four {
+  display: flex;
+}
+
+.section-four .container-one {
+  background-image: url(../img/cyberpunk-bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  /* max-width: 944px;
+  height: 717px;
+  max-height: 717px; */
+}
+
+.section-four .container-two {
+  background: #000000;
+  width: 100%;
+  padding: 70px 32px 70px 32px;
+}
+
+.section-four .container-two .content-one h2 {
+  font-family: Archangelsk;
+  font-size: 62px;
+  font-weight: 400;
+  line-height: 63px;
+  color: #ffffff;
+  max-width: 615px;
+  margin-bottom: 25px;
+}
+
+.section-four .container-two .content-one h3 {
+  font-size: 24px;
+  color: #52bedc;
+  margin-bottom: 15px;
+}
+
+.section-four .container-two .content-two {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 70px;
+}
+
+.section-four .container-two .content-two .block-one,
+.section-four .container-two .content-two .block-two,
+.section-four .container-two .content-two .block-three {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-four .container-two .content-two .block-one p,
+.section-four .container-two .content-two .block-two p,
+.section-four .container-two .content-two .block-three p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.section-four .container-two .content-three h3 {
+  font-size: 24px;
+  color: #52bedc;
+  margin-bottom: 25px;
+}
+
+.section-four .container-two .content-four {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 79px;
+  row-gap: 55px;
+  max-width: 319px;
+  width: 100%;
+}
+
+/* section-five */
+
+.section-five {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 13px 0;
+}
+
+.section-five .container-one {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.section-five .container-two {
+  display: flex;
+  gap: 32px;
+}
+
+.section-five .container-two a {
+  font-size: 18px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.section-five .container-two a:hover {
+  opacity: 0.7;
+}
+
+/* footer */
+
+footer {
+  background: #000000;
+}
+
+footer p {
+  max-width: 253px;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 13px 0;
+}
+
+@media (max-width: 1352px) {
+  header .container-one {
+    margin: 0 36px;
+  }
+
+  header .container-two {
+    margin-right: 36px;
+  }
+
+  /* section-five */
+
+  .section-five {
+    padding: 13px 36px;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1240px) {
+  .section-three .container-one .content-two img:nth-of-type(1) {
+    max-width: 70px;
+  }
+
+  .section-three .container-one .content-two img:nth-of-type(2) {
+    width: 100%;
+    max-width: 82px;
+  }
+
+  .section-three .container-one .content-two img:nth-of-type(3) {
+    width: 100%;
+    max-width: 310px;
+  }
+}
+
+@media (max-width: 1024px) {
+  header {
+    background-image: url(../img/cyberpunk-1\(2\).jpg);
+  }
+
+  header .container-one {
+    max-width: 952px;
+  }
+
+  /* header .container-two {
+    margin-left: 35%;
+  } */
+
+  /* section-one */
+
+  .section-one .container-one {
+    margin: 7% 3%;
+  }
+
+  .section-one .container-one h2 {
+    max-width: 620px;
+  }
+
+  .section-one .container-one p {
+    max-width: 788px;
+  }
+
+  .section-one .container-two {
+    flex-direction: column;
+    margin: 7% 3%;
+  }
+
+  .section-one .container-two .block-one {
+    flex-direction: row;
+  }
+
+  .section-one .container-two .block-one img {
+    width: 48%;
+  }
+
+  /* .section-two */
+
+  .section-two {
+    padding: 2% 4% 7%;
+  }
+
+  .section-two .container-one,
+  .section-two .container-two {
+    display: none;
+  }
+
+  .section-two .container-three {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .section-two .container-three .block-one {
+    width: 100%;
+    max-width: 460px;
+  }
+
+  .section-two .container-three .block-one h2 {
+    font-family: 'Archangelsk';
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 63px;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+
+  .section-two .container-three .block-one .text {
+    font-size: 18px;
+    line-height: 34px;
+    color: #ffffff;
+    padding-bottom: 98px;
+  }
+
+  .section-two .container-three .block-one .text b {
+    color: #52bedc;
+    font-weight: 700;
+  }
+
+  .section-two .container-three .block-one .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 35px;
+    max-width: 460px;
+    width: 100%;
+  }
+
+  .section-two .container-three .block-one .content .text {
+    border: none;
+    border-bottom: 1px solid #777777;
+    background: transparent;
+    padding-bottom: 13px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+  }
+
+  .section-two .container-three .block-one .content .email {
+    border: none;
+    border-bottom: 1px solid #777777;
+    background: transparent;
+    padding-bottom: 13px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+  }
+
+  .section-two .container-three .block-one .content .input-file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #777777;
+    background-color: #000000;
+    height: 120px;
+    border: 1px dashed #777777;
+  }
+
+  .section-two
+    .container-three
+    .block-one
+    .content
+    .input-file
+    div:nth-of-type(1) {
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-decoration-line: underline;
+  }
+
+  .section-two
+    .container-three
+    .block-one
+    .content
+    .input-file
+    div:nth-of-type(2) {
+    font-family: 'Roboto';
+    font-size: 12px;
+  }
+
+  .section-two
+    .container-three
+    .block-one
+    .content
+    .input-file
+    input[type='file'] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+  }
+
+  .section-two .container-three .block-one .content .input-file:hover {
+    opacity: 0.8;
+  }
+
+  .section-two .container-three .block-one .content .input-file:active {
+    opacity: 0.8;
+  }
+
+  .section-two
+    .container-three
+    .block-one
+    .content
+    .input-file
+    input[type='file']:disabled
+    + div {
+    background-color: #eee;
+  }
+
+  .section-two .container-three .block-one .content .submit {
+    background: #f8f200;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    width: 192px;
+    height: 59px;
+    cursor: pointer;
+    border: 2px #f8f200 solid;
+    margin-bottom: -20px;
+  }
+
+  .section-two .container-three .block-one .content .submit:hover {
+    border-color: #52bedc;
+    opacity: 0.9;
+  }
+
+  .section-two .container-three .block-one .content .input-checkbox {
+    display: flex;
+  }
+
+  .section-two
+    .container-three
+    .block-one
+    .content
+    .input-checkbox
+    input[type='checkbox'] {
+    position: relative;
+    cursor: pointer;
+    width: 0;
+  }
+
+  .section-two
+    .container-three
+    .block-one
+    .content
+    .input-checkbox
+    input[type='checkbox']::before {
+    content: url(../img/checkbox-1.svg);
+    width: 14px;
+    height: 14px;
+    position: absolute;
+  }
+
+  .section-two
+    .container-three
+    .block-one
+    .content
+    .input-checkbox
+    input[type='checkbox']:checked:after {
+    content: url(../img/checkbox-2.svg);
+    width: 14px;
+    height: 14px;
+    position: absolute;
+  }
+
+  .section-two .container-three .block-one .content .input-checkbox p {
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    margin-left: 24px;
+  }
+
+  .section-two .container-three .block-two {
+    width: 100%;
+    max-width: 460px;
+  }
+
+  .section-two .container-three .block-two img {
+    width: 100%;
+    max-width: 460px;
+    height: 100%;
+    max-height: 858px;
+  }
+
+  /* section-three */
+
+  .section-three {
+    padding: 32px;
+  }
+
+  .section-three .container-one .content-two {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* section-four */
+
+  .section-four .container-one {
+    max-width: 332px;
+    background-position: left;
+  }
+}
+
+@media (max-width: 780px) {
+  header .container-one {
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 12px;
+  }
+
+  header .container-two .block {
+    padding: 48px;
+  }
+}
+
+@media (max-width: 690px) {
+  .section-four {
+    flex-direction: column;
+  }
+
+  .section-four .container-one {
+    max-width: 690px;
+    height: 198px;
+  }
+
+  /* .section-four .container-two .content-one h2 {
+    font-size: 30px;
+    line-height: 31px;
+  } */
+}
+
+@media (max-width: 660px) {
+  header .container-two .block h2 {
+    font-size: 30px;
+    line-height: 31px;
+    text-align: center;
+  }
+
+  header .container-two .block button {
+    max-width: 244px;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  header .container-two .block {
+    text-align: center;
+    padding: 30px 13px;
+    clip-path: polygon(8% 0%, 100% 0, 100% 80%, 92% 100%, 0 100%, 0% 20%);
+  }
+
+  /* section-two */
+
+  .section-two {
+    padding-top: 8%;
+  }
+
+  .section-two .container-three {
+    flex-direction: column-reverse;
+    position: relative;
+    gap: 0;
+  }
+
+  .section-two .container-three .block-one .logo {
+    width: 100%;
+    max-width: 62px;
+    position: absolute;
+    top: -48px;
+  }
+
+  .section-two .container-three .block-one h2 {
+    font-size: 30px;
+    line-height: 31px;
+    padding-top: 25px;
+  }
+
+  .section-two .container-three .block-one .text {
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom: 70px;
+  }
+
+  .section-two .container-three .block-one .content .text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .section-two .container-three .block-one .content .email {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .section-two
+    .container-three
+    .block-one
+    .content
+    .input-file
+    div:nth-of-type(1) {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .section-two .container-three .block-one .content .submit {
+    font-size: 16px;
+  }
+
+  .section-two .container-three .block-two {
+    max-width: 296px;
+  }
+
+  .section-two .container-three .block-two img {
+    content: url(../img/xbox&playstation-3.png);
+  }
+
+  /* section-three */
+
+  .section-three {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-three .container-one .content-two {
+    flex-direction: row;
+    gap: 13px;
+  }
+
+  .section-three .container-two .content-one h2 {
+    font-size: 30px;
+    line-height: 31px;
+  }
+
+  .section-three .container-two .content-one p {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .section-three .container-two .content-two .block-one p,
+  .section-three .container-two .content-two .block-two p,
+  .section-three .container-two .content-two .block-three p {
+    font-size: 16px;
+  }
+
+  .section-three .container-one .content-two img:nth-of-type(1) {
+    max-width: 43px;
+  }
+
+  .section-three .container-one .content-two img:nth-of-type(2) {
+    max-width: 55px;
+  }
+
+  .section-three .container-one .content-two img:nth-of-type(3) {
+    max-width: 175px;
+  }
+}
+
+@media (max-width: 574px) {
+  .section-five {
+    padding: 40px 0 25px;
+  }
+
+  .section-five .container-one {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .section-five .container-two {
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .section-five .container-two a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  header .container-two {
+    justify-content: center;
+    margin-right: 0;
+    /* margin-left: 14%; */
+  }
+
+  /* section-one */
+
+  .section-one .container-two .block-one img {
+    width: 47%;
+  }
+
+  /* seciton-two */
+
+  .section-two {
+    padding-top: 16%;
+    padding-bottom: 22%;
+  }
+
+  /* section-four */
+
+  .section-four .container-two {
+    padding: 40px 12px 70px;
+  }
+
+  .section-four .container-two .content-one h2 {
+    font-size: 30px;
+    line-height: 31px;
+  }
+
+  .section-four .container-two .content-one h3 {
+    font-size: 20px;
+  }
+
+  .section-four .container-two .content-two {
+    margin-bottom: 40px;
+  }
+
+  .section-four .container-two .content-two .block-one p,
+  .section-four .container-two .content-two .block-two p,
+  .section-four .container-two .content-two .block-three p {
+    font-size: 16px;
+  }
+
+  .section-four .container-two .content-three h3 {
+    font-size: 20px;
+  }
+
+  .section-four .container-two .content-four {
+    column-gap: 56px;
+    row-gap: 44px;
+  }
+}
+
+@media (max-width: 375px) {
+  .section-five .container-one img:nth-of-type(1) {
+    max-width: 200px;
+  }
+
+  .section-five .container-one img:nth-of-type(2) {
+    max-width: 116px;
+  }
+}
+
+@media (max-width: 320px) {
+  header {
+    background-image: url(../img/cyberpunk-1\(3\).jpg);
+    max-height: 713px;
+    margin-bottom: 65%;
+  }
+
+  header .container-one .logo {
+    max-width: 200px;
+    max-height: 50px;
+  }
+
+  header .container-one nav {
+    max-width: 296px;
+  }
+
+  header .container-one nav img {
+    max-width: 25px;
+  }
+
+  header .container-two {
+    margin-right: 0;
+  }
+
+  /* header .container-two .block {
+    height: 207px;
+    width: 100%;
+  } */
+
+  /* section-one */
+
+  .section-one .container-one {
+    margin: 22% 4%;
+  }
+
+  .section-one .container-one h2 {
+    font-size: 30px;
+    line-height: 31px;
+    max-width: 296px;
+  }
+
+  .section-one .container-one p {
+    font-size: 16px;
+    line-height: 32px;
+    max-width: 296px;
+  }
+
+  .section-one .container-two {
+    margin: 22% 0;
+  }
+
+  .section-one .container-two .block-one img {
+    width: 100%;
+  }
+
+  .section-one .container-two .block-one {
+    flex-direction: column;
+  }
+
+  .section-one .container-two .block-one img:nth-of-type(1) {
+    content: url(../img/cyberpunk-4\(2\).jpg);
+  }
+
+  .section-one .container-two .block-one img:nth-of-type(2) {
+    content: url(../img/cyberpunk-5\(2\).jpg);
+  }
+
+  .section-one .container-two .block-two img {
+    content: url(../img/cyberpunk-6\(2\).jpg);
+  }
+}
